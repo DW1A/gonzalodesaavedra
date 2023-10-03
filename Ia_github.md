@@ -16,8 +16,7 @@ Este anexo proporciona una revisión rápida de las principales soluciones de al
 
 Este anexo es una síntesis visual de las opciones de licencias de código abierto disponibles, incluyendo la Licencia MIT, la Licencia Apache y la Licencia GPL. Se proporciona una descripción de cada licencia y se muestra un gráfico que compara las diferentes opciones.
 
-### Anexo III: Recursos
-## Anexo III: Recursos interesantes en Internet relacionados con la ciencia abierta y GitHub
+### Anexo III: Recursos interesantes en Internet relacionados con la ciencia abierta y GitHub
 
 El Anexo III es una colección de recursos interesantes en Internet relacionados con la ciencia abierta y GitHub. A continuación se describen algunos de los recursos incluidos en este anexo:
 
