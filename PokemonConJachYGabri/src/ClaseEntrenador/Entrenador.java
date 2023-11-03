@@ -17,10 +17,6 @@ public class Entrenador {
         return posY;
     }
 
-    public void setAtk(int atk) {
-        this.atk = atk; // this se refiere a "este objeto"
-    }
-
     public int getCasillas() {
         return n;
     }
@@ -82,56 +78,5 @@ public class Entrenador {
         else 
         	System.out.println("Has llegado al límite del mapa en esta dirección");
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    public void zzz() {
-        // TODO limitar veces de descanso
-        this.dfn += 4;
+
     }
-
-    public int ganador = 0;
-
-    public int lucha(Pokemon otherPokemon) { // Pokemon <-- Clase otherPokemon <-- Variable?
-                                             // pokemon contra el que va a luchar
-        
-
-        while ((this.hp > 0) && (otherPokemon.hp > 0)) { //si alguno muere termina
-            this.hp -= (otherPokemon.atk - this.dfn); //mi ataque - su defensa
-            otherPokemon.hp -= (this.atk - otherPokemon.dfn); //su ataque - mi defensa
-        }
-
-        if (this.hp > otherPokemon.hp) {
-            this.ganador=1;
-        } else {
-            if (otherPokemon.hp > this.hp) {
-                this.ganador=2;
-            } else {
-                this.ganador=3;
-            }
-        }
-
-        
-
-        //TODO completar como se elige ganador
-        return ganador;
-    }
-
-    public int getGanador() {
-        return ganador;
-    }
-
-}
