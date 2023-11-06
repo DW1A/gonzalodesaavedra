@@ -1,4 +1,4 @@
-package ClaseEntrenador;
+package Main;
 
 public class Entrenador {
 
@@ -79,4 +79,5 @@ public class Entrenador {
         	System.out.println("Has llegado al límite del mapa en esta dirección");
     }
 
+    
     }
