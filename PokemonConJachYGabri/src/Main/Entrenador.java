@@ -2,12 +2,14 @@ package Main;
 
 public class Entrenador {
 
-    private int posX;
-    private int posY;
+
+    private int posX=0;
+    private int posY=0;
     private int n;
     private int $;
     private int W;
     private int L;
+    
 
     public int getPosX() {
         return posX;
@@ -34,18 +36,20 @@ public class Entrenador {
     }
 
 
-    public Entrenador(int n, int posX, int posY, int $, int W, int L) {
-        this.n = n;
-        this.$ = $;
+
+    
+    public Entrenador() {
+        this.n = 1;
+        this.$ = 60;
         this.posX = posX;
         this.posY = posY;
-        this.W = W;
-        this.L=L;
+        this.W = 5;
+        this.L=9;
     }
 
     @Override
     public String toString() {
-        return "Pokemon [Posición:(" +posX+ "," +posY+").   Dinero=" +$+ ".   Casillas recorridas:" +n+ ".   Victorias:" +W+ ".   Derrotas:" +L+ "]";
+        return "Entrenador: [Posición:(" +posX+ "," +posY+").   Dinero=" +$+ ".   Casillas recorridas:" +n+ ".   Victorias:" +W+ ".   Derrotas:" +L+ "]";
     }
 
     public void MoveUp() {  		 	//Moverse 1 casilla hacia arriba

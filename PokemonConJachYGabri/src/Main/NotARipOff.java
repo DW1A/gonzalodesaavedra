@@ -1,50 +1,53 @@
 package Main;
+
 public class NotARipOff {
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        Poki otherPoki, primerPoki;
+		Entrenador Juan;
+		Poki otherPoki, primerPoki;
 
-        int ganador;
+		int ganador;
 
-        primerPoki = new Poki();
+		Juan = new Entrenador();
+		primerPoki = new Poki();
 
-        otherPoki = new Poki();
+		otherPoki = new Poki();
 
-        // System.out.println(Planty);
-        // Planty.comerBaya(); // esto hace que el pokemon 1 se coma una baya y sus
-        // puntos de vida aumenten
-        // System.out.println("Pokimon come baya, suma +5hp " + Planty);
+		// System.out.println(Planty);
+		// Planty.comerBaya(); // esto hace que el pokemon 1 se coma una baya y sus
+		// puntos de vida aumenten
+		// System.out.println("Pokimon come baya, suma +5hp " + Planty);
 
-        primerPoki.setTipo();
+		primerPoki.setTipo();
 
-        System.out.println(primerPoki);
+		System.out.println(primerPoki);
 
-        System.out.println("A luchar owo");
+		System.out.println("A luchar owo");
 
-        otherPoki.setTipo();
+		otherPoki.setTipo();
 
-        otherPoki.resetStat();
+		otherPoki.resetStat();
 
-        System.out.println(otherPoki);
+		System.out.println(otherPoki);
 
-        primerPoki.lucha(otherPoki);
+		primerPoki.lucha(otherPoki);
 
-        ganador = primerPoki.getGanador();
+		ganador = primerPoki.getGanador();
 
-        if (ganador == 1) {
-            System.out.println("Has ganado!");
-        } else {
-            if (ganador == 2) {
-                System.out.println("Has perdido :(");
-            } else {
-                System.out.println("Habeis empatado!");
-            }
-        }
+		if (ganador == 1) {
+			System.out.println("Has ganado!");
+		} else {
+			if (ganador == 2) {
+				System.out.println("Has perdido :(");
+			} else {
+				System.out.println("Habeis empatado!");
+			}
+		}
 
-        otherPoki.resetStat();
+		otherPoki.resetStat();
 
-        System.out.println(otherPoki);
-
-    }
+		System.out.println(otherPoki);
+		System.out.println(Juan);
+	}
 
 }
