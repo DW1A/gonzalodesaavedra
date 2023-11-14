@@ -1,4 +1,4 @@
-package clases;
+package hazteConTodos;
 
 public class Entrenador {
 

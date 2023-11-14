@@ -1,4 +1,4 @@
-package Clases;
+package Main;
 	class Bicicleta {
 
 	    int cadence = 0;

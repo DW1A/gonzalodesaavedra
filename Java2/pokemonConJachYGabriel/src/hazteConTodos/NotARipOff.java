@@ -1,4 +1,4 @@
-package main;
+package hazteConTodos;
 
 public class NotARipOff {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package clases;
+package hazteConTodos;
 public class Poki {
     // math random para las estadisticas
 
