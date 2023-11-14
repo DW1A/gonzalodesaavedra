@@ -1,4 +1,4 @@
-package clases;
+package ejercicioPokemonDeGabriel;
 public class Pokemon {
 
     private char tipo;

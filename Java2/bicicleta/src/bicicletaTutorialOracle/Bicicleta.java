@@ -1,4 +1,4 @@
-package Main;
+package bicicletaTutorialOracle;
 	class Bicicleta {
 
 	    int cadence = 0;

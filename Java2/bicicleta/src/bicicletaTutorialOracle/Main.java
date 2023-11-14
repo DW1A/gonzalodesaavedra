@@ -1,4 +1,4 @@
-package Main;
+package bicicletaTutorialOracle;
 class Bicicletas {
     public static void main(String[] args) {
 

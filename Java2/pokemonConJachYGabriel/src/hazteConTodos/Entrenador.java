@@ -41,8 +41,8 @@ public class Entrenador {
     public Entrenador() {
         this.n = 1;
         this.$ = 60;
-        this.posX = posX;
-        this.posY = posY;
+    //    this.posX = posX;
+    //    this.posY = posY;
         this.W = 5;
         this.L=9;
     }
