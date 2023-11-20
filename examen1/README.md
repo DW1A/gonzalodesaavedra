@@ -1,6 +1,6 @@
 # README
 
-### Para leer la licencia pincha [aquí](/LICENSE)  
+### Para leer la licencia pincha [aquí](https://github.com/DW1A/gonzalodesaavedra/blob/main/examen1/LICENCIA)  
 
 ![programacion-web-barcelona](https://github.com/DW1A/gonzalodesaavedra/assets/112649695/54cb2712-0652-4752-b486-b1ea22f2bf9a)  
 
