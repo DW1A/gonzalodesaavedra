@@ -4,5 +4,5 @@
 /**
  * 
  */
-module helloWorld {
+module ejsBásicos {
 }
