@@ -5,4 +5,4 @@ Página creada por Gabriel, Eugenia, Jose y Gonzalo.
 
 # Currículum
 ### [Link al currículum](https://gonlelocv.github.io/)
-### [Link al github](https://github.com/gonlelo/gonlelocv.github.io)
+### [Link al github](https://github.com/gonlelocv/gonlelocv.github.io)
