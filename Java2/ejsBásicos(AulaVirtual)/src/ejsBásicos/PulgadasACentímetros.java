@@ -19,5 +19,4 @@ public class PulgadasACentímetros {
 		
 		scanner.close();   //Cierra el recurso. Buena práctica.
 	}
-
 }
