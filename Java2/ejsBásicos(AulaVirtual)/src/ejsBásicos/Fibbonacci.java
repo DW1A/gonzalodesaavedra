@@ -6,9 +6,9 @@ public class Fibbonacci {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		double num = 0.5;
-		int suma = 1;
-		int ultNum=1;
-		int auxiliar;
+		long suma = 1;
+		long ultNum=1;
+		long auxiliar;
 		
 		while((int) num != num || num < 0) {
 			System.out.println("Introduce cuántos términos de la sucesión de Fibbonacci quieres ver");
