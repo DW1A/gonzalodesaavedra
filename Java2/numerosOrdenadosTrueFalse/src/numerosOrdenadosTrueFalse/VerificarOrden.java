@@ -11,7 +11,7 @@ public class VerificarOrden {
     }
 
     public static void main(String[] args) {
-        int[] numeros = {1, 3, 20, 100, 300};
+        int[] numeros = {1, 3, 2, 100, 300};
         boolean resultado = estaOrdenado(numeros);
         System.out.println("¿El arreglo está ordenado de menor a mayor? " + resultado);
     }
