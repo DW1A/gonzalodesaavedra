@@ -7,7 +7,7 @@ class Main {
         // Bicycle objects
         Bicicleta bike1 = new Bicicleta();
         Bicicleta bike2 = new Bicicleta();
-        MountainBike mBike1 = new MountainBike(38);
+        MountainBike mBike1 = new MountainBike(4);
 
         // Invoke methods on 
         // those objects
